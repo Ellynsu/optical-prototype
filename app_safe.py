@@ -12,7 +12,7 @@ from optical_database_cleaner import (
 st.set_page_config(page_title="Optical Client Recovery Prototype", page_icon="👓", layout="wide")
 
 st.title("Optical Client Recovery Prototype")
-st.success("Cleaner module loaded.")
+st.caption("Analyze your customer database and identify high-value recall opportunities.")
 
 st.subheader("Upload Customer Database")
 uploaded_file = st.file_uploader("Drag and drop or browse for your CSV file", type=["csv"])

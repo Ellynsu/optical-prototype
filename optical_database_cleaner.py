@@ -1,4 +1,13 @@
+import streamlit as st
 
+st.title("Optical Client Recovery Prototype")
+
+try:
+    import optical_database_cleaner
+    st.success("optical_database_cleaner imported successfully.")
+except Exception as e:
+    st.error("Import failed.")
+    st.exception(e)
 from __future__ import annotations
 
 import json
